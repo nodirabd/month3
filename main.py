@@ -14,7 +14,6 @@ def main_page(page: ft.Page):
             page.theme_mode = ft.ThemeMode.LIGHT
             theme_btn.icon = ft.Icons.BRIGHTNESS_4  # Иконка луны для светлой темы
         page.update()
-
     # Объявляем элементы заранее, чтобы функции их видели
     text_hello = ft.Text('Hello', color=ft.Colors.RED)
     text_input = ft.TextField(label='Введите свое имя')
@@ -42,3 +41,5 @@ def main_page(page: ft.Page):
     page.add(theme_btn,text_hello, text_input, btn,)
 
 ft.app(main_page)
+
+
