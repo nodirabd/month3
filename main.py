@@ -24,7 +24,7 @@ def main_page(page: ft.Page):
             text_hello.value = f"Hello, {name}!"
             text_hello.color = ft.Colors.GREEN
         else:
-            text_hello.value = "Введи имя быстрее пожалуйста плиз!!!" 
+            text_hello.value = "Введи имя быстреe пожалуйста плиз!!!" 
             text_hello.color = ft.Colors.RED_900
         page.update()
 
